@@ -33,54 +33,8 @@ Used to measure county-level labor market conditions.
 Source: BLS QCEW Downloadable Data Files  
 https://www.bls.gov/cew/downloadable-data-files.htm
 
-## 3. NOAA Storm Events Database
-Used to capture extreme weather events beyond wildfire incidents.
 
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| NOAA Storm Events Database | storm type, event date, location, damage indicators | Identify weather-related shocks and compare recovery patterns |
-
-Source: NOAA Storm Events Database  
-https://www.ncei.noaa.gov/stormevents/ftp.jsp
-
-## 4. ERA5 Reanalysis
-Used to measure weather deviations and environmental conditions.
-
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| ERA5 Reanalysis | temperature, precipitation, wind, other atmospheric variables | Build weather anomaly features and extreme event indicators |
-
-Sources:  
-https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5  
-https://www.ecmwf.int/en/forecasts/datasets
-
-## 5. Google Community Mobility Reports
-Used as a mobility-based proxy for economic disruption.
-
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| Google Community Mobility Reports | mobility changes by region and category | Detect contraction in movement and activity patterns |
-
-Source: Google Community Mobility Reports  
-https://www.google.com/covid19/mobility/
-
-<!-- Data availability appears limited to around 2020 -->
-<!-- Confirm final usable coverage before analysis -->
-
-## 6. Opportunity Insights Economic Tracker
-Used as a high-frequency economic activity source.
-
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| Opportunity Insights Economic Tracker | economic activity indicators, consumer and regional metrics | Track short-term economic disruptions and recovery |
-
-Source: Opportunity Insights Economic Tracker  
-https://economictracker.org/
-
-<!-- Coverage may be limited and should be verified -->
-<!-- Consider alternative metrics if data is not recent enough -->
-
-## 7. Bureau of Economic Analysis (BEA)
+## 3. Bureau of Economic Analysis (BEA)
 Used to measure county-level economic output.
 
 | Data source | Variables / coverage | Purpose |
@@ -116,20 +70,3 @@ Suggested packages:
 - `numpy`
 - `requests`
 - 
-
-# Running analysis
-
-From `src/` directory run:
-
-`python main.py`
-
-Results will appear in `results/` folder.  
-All obtained data will be stored in `data/`.
-
-<!-- Update this if the real entry point is different -->
-<!-- If notebooks are used for the main workflow, document that here -->
-
-# Relevant papers
-Eckert, Florian, et al.. “Tracking Economic Activity With Alternative High-Frequency Data.” Journal of Applied Econometrics, vol. 40, no. 3, 2025, pp. 270-90. [https://www.research-collection.ethz.ch/server/api/core/bitstreams/88127dde-7a15-4726-b5ec-69427e390125/content](https://www.research-collection.ethz.ch/server/api/core/bitstreams/88127dde-7a15-4726-b5ec-69427e390125/content).
-Kim, E., & Kwon, Y. J.. “Analyzing indirect economic impacts of wildfire damages on regional economies.” Risk Analysis, vol. 43, no. 12, 2023, pp. 2631–43. [https://doi.org/10.1111/risa.14106]([url](https://doi.org/10.1111/risa.14106)). 
-Zhiyun Li, William Yu. “Economic Impact of the Los Angeles Wildfires.” UCLA Anderson School of Management, https://www.anderson.ucla.edu/about/centers/ucla-anderson-forecast/economic-impact-los-angeles-wildfires.
