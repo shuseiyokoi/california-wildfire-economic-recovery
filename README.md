@@ -1,5 +1,5 @@
 # Climate and Mobility Shock Detection for Economic Activity Forecasting
-This project explores whether weather and related external signals can detect early economic disruptions before official indicators are released. It also examines how quickly regional and urban economic systems recover after extreme events such as wildfires and severe weather.
+This project explores whether weather and related external signals can detect early economic disruptions before official indicators are released. It also examines how quickly regional and urban economic systems recover after wildfires.
 
 # Research questions
 
