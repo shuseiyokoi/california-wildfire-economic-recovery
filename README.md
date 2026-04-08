@@ -34,16 +34,6 @@ Source: BLS QCEW Downloadable Data Files
 https://www.bls.gov/cew/downloadable-data-files.htm
 
 
-## 3. Bureau of Economic Analysis (BEA)
-Used to measure county-level economic output.
-
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| BEA GDP by county, CAGDP2 | GDP by county, GDP by industry, annual output | Measure broader regional economic performance |
-
-Source: Bureau of Economic Analysis  
-<!-- add exact BEA API or table link if you use one -->
-
 ### Notes on BEA data
 - Table: **Gross Domestic Product by County**
 - Dataset: **CAGDP2 GDP by industry in current dollars**
