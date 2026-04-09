@@ -38,12 +38,6 @@ https://www.bls.gov/cew/downloadable-data-files.htm
 
 _Results are not available yet. This section will summarize whether weather anomalies, mobility contraction, and extreme event exposure can help detect short-term economic slowdown and recovery before official indicators are released._
 
-# Installation
-- Install required Python packages from `requirements.txt` if provided.
-- Add API keys to `.env` only if any API-based data access is used.
-- No required API key information is currently provided.
-
-
 Suggested packages:
 - `pandas`
 - `numpy`
