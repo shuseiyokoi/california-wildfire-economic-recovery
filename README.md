@@ -34,19 +34,8 @@ Source: BLS QCEW Downloadable Data Files
 https://www.bls.gov/cew/downloadable-data-files.htm
 
 
-### Notes on BEA data
-- Table: **Gross Domestic Product by County**
-- Dataset: **CAGDP2 GDP by industry in current dollars**
-- Geography: **State / County**
-- Data range noted: **2001 to 2024**
-- Units may include:
-  - Level (thousands of current dollars)
-  - Percent change from preceding period
-  - Compound annual growth rate between any two periods
-  - Index based on earliest selected year
-
 # Results
-<!-- Results not available yet -->
+
 _Results are not available yet. This section will summarize whether weather anomalies, mobility contraction, and extreme event exposure can help detect short-term economic slowdown and recovery before official indicators are released._
 
 # Installation
@@ -54,7 +43,7 @@ _Results are not available yet. This section will summarize whether weather anom
 - Add API keys to `.env` only if any API-based data access is used.
 - No required API key information is currently provided.
 
-<!-- Remove packages not used in the final version -->
+
 Suggested packages:
 - `pandas`
 - `numpy`
