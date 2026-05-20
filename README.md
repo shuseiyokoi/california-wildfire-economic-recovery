@@ -1,45 +1,46 @@
-# Climate and Mobility Shock Detection for Economic Activity Forecasting
-This project explores whether weather and related external signals can detect early economic disruptions before official indicators are released. It also examines how quickly regional and urban economic systems recover after wildfires.
+# California Wildfire Economic Recovery
 
-# Research questions
+## Project Overview
 
-## 1. Early disruption detection
-Can we detect early economic disruptions using mobility, weather, and energy-related signals?
+This project investigates whether weather signals can detect early economic disruption and track recovery after wildfires in California. By analyzing weather patterns and economic data, we aim to understand the relationship between wildfire-related weather conditions and economic impacts.
 
-Do extreme weather deviations combined with mobility contraction predict short-term regional economic slowdown before official indicators?
+## Research Question
 
-## 2. Extreme event impact detection
-Can we quantify how fast urban and regional systems recover after extreme events such as wildfires, storms, and other disasters?
+Can weather signals serve as indicators for:
+- Early detection of economic disruption caused by wildfires?
+- Tracking the pace and progress of economic recovery post-wildfire?
 
-# Data sources
+## Repository Structure
 
-## 1. CAL FIRE Wildfire Incident Data
-Used to identify wildfire events and affected counties in California.
+- **HTML** (84.6%) - Visualizations and interactive reports
+- **Jupyter Notebooks** (15.4%) - Data analysis and modeling code
 
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| CAL FIRE incidents | incident name, county, incident date, acres burned, location | Identify wildfire shocks and affected regions |
+## Key Components
 
-Source: CAL FIRE Incidents  
-https://www.fire.ca.gov/incidents
+### Data Analysis
+- Weather data analysis and processing
+- Economic impact assessment
+- Recovery trajectory modeling
 
-## 2. BLS Quarterly Census of Employment and Wages (QCEW)
-Used to measure county-level labor market conditions.
+### Visualizations
+- Interactive dashboards for economic trends
+- Weather pattern analysis visualizations
+- Recovery metrics and timelines
 
-| Data source | Variables / coverage | Purpose |
-|-------------|----------------------|---------|
-| BLS QCEW | employment, wages, county, industry, quarter | Measure local labor market changes after shocks |
+## Getting Started
 
-Source: BLS QCEW Downloadable Data Files  
-https://www.bls.gov/cew/downloadable-data-files.htm
+1. Clone the repository
+2. Review the Jupyter notebooks for data processing workflows
+3. Explore the HTML reports for visualizations and findings
+
+## Project Insights
+
+This research provides insights into:
+- The economic impact timeline of wildfires
+- Weather pattern indicators of economic disruption
+- Recovery patterns and timelines for affected regions
 
 
-# Results
+## Contact
 
-_Results are not available yet. This section will summarize whether weather anomalies, mobility contraction, and extreme event exposure can help detect short-term economic slowdown and recovery before official indicators are released._
-
-Suggested packages:
-- `pandas`
-- `numpy`
-- `requests`
-- 
+For questions or collaboration inquiries, please reach out to the repository owner.
